@@ -41,7 +41,7 @@ public void user_enters_username_and_Password() throws Throwable {
 @Then("^success message is displayed$")
 public void success_message_is_displayed() throws Throwable {
     driver.findElement(By.name("Submit")).sendKeys(Keys.ENTER);
-System.out.println("Login successfully");
+System.out.println("Login successfully don");
    // throw new PendingException();
 }
 @When("^close the browser$")
