@@ -34,13 +34,14 @@ public void enter_url() throws Throwable {
 public void user_enters_username_and_Password() throws Throwable {
    driver.findElement(By.name("txtUserName")).sendKeys("admin");
         driver.findElement(By.name("txtPassword")).sendKeys("admin");
-
+System.out.println("Entered Values");
     //throw new PendingException();
 }
 
 @Then("^success message is displayed$")
 public void success_message_is_displayed() throws Throwable {
     driver.findElement(By.name("Submit")).sendKeys(Keys.ENTER);
+System.out.println("Login successfully don");
    // throw new PendingException();
 }
 @When("^close the browser$")
