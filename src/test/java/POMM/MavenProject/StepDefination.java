@@ -34,7 +34,7 @@ public void enter_url() throws Throwable {
 public void user_enters_username_and_Password() throws Throwable {
    driver.findElement(By.name("txtUserName")).sendKeys("admin");
         driver.findElement(By.name("txtPassword")).sendKeys("admin");
-System.out.println("Entered Values");
+System.out.println("Entered Values11111111111111111111111");
     //throw new PendingException();
 }
 
