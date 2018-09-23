@@ -6,3 +6,4 @@ Feature: Login Feature
     When user enters username and Password
     Then success message is displayed
     When close the browser
+    

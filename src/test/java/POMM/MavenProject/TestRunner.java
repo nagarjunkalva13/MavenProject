@@ -8,11 +8,30 @@ import cucumber.api.junit.Cucumber;
  
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="C:\\SeleniumTrg\\MavenProject\\src\\test\\java\\POMM\\MavenProject\\L.feature",
-		format = {"pretty", "html:target/Destination"})
+		features="C:\\SeleniumTrg\\MavenProject\\src\\test\\java\\POMM\\MavenProject\\L2.feature",
+		format = {"pretty", "html:target/Destination"}
 				//glue= {"StepDefination"},
 					//	plugin = { "pretty", "html:target/cucumber-reports" },
-					//	monochrome = true)
+						,strict=true,dryRun=false,monochrome = true)
 public class TestRunner {
  
 }
+
+/*
+waits
+Screenshot
+log
+extent reports
+
+diff between css and xpath 
+truncate and delete
+frame
+String reverse
+subString
+pattern program
+6 phases in maven
+javaScript Executer
+code snippet for database Connectivity
+
+*/
+
