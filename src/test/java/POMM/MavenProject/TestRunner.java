@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
  
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="C:\\SeleniumTrg\\MavenProject\\src\\test\\java\\POMM\\MavenProject\\L2.feature",
+		features="C:\\SeleniumTrg\\MavenProject\\src\\test\\java\\POMM\\MavenProject\\L3.feature",
 		format = {"pretty", "html:target/Destination"}
 				//glue= {"StepDefination"},
 					//	plugin = { "pretty", "html:target/cucumber-reports" },
