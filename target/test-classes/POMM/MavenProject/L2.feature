@@ -20,7 +20,7 @@
 Feature: Title of your feature
   I want to use this template for my feature file
 
-   Scenario Outline: Login as a authenticated user
+    Scenario Outline: Login as a authenticated user
     Given Enter url
     When user enters "<username>" and "<Password>"
     Then success message is displayed
@@ -28,11 +28,11 @@ Feature: Title of your feature
     
 
     Examples: 
-      | username  | Password | 
-      | admin 		|  admin 	 | 
-      | admin1 		|  admin1  |
-      | admin 		|  admin 	 | 
-      | admin1 		|  admin1  |
+      | username    | Password | 
+      | admin 		|  admin | 
+      | admin1 		|  admin1|
+      | admin 		|  admin | 
+      | admin1 		|  admin1|
       
       
       
