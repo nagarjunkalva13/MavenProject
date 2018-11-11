@@ -1,4 +1,4 @@
-package POMM.MavenProject;
+﻿package POMM.MavenProject;
 
 
 import org.junit.After;
@@ -61,7 +61,7 @@ public void afterMethod() {
 @AfterClass
 public static void afterClassMethod() {
 	System.out.println("@After class");
-//System.out.println(“Inside After Class method”);
+//System.out.println(“method”);
 }
 
 }

@@ -76,7 +76,7 @@ public void success_message_is_displayed() throws Throwable {
 public void close_the_browser() throws Throwable {
 	//driver.findElement(By.name("Submit")).sendKeys(Keys.ENTER);
    driver.close();
-   System.out.println("browser closed");
+   System.out.println("browser closed123456");
 	// Write code here that turns the phrase above into concrete actions
    // throw new PendingException();
 }
